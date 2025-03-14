@@ -62,6 +62,10 @@ h6 {
 /* General Styling */
 :root {
     --header-fonts: "Playfair Display", "Times New Roman", Times, serif;
+    --teal-one: #00bca8;
+    --teal-two: #00978a;
+    --teal-three: #00786f;
+    --teal-four: #005f5a;
 }
 
 body {
