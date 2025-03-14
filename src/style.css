@@ -151,6 +151,10 @@ body {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
+.project-img {
+    object-fit: cover;
+}
+
 .project-header-container {
     display: flex;
     justify-content: space-between;
