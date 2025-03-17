@@ -62,19 +62,22 @@ h6 {
 /* General Styling */
 :root {
     --header-fonts: "Playfair Display", "Times New Roman", Times, serif;
-    --teal-one: #00bca8;
-    --teal-two: #00978a;
-    --teal-three: #00786f;
-    --teal-four: #005f5a;
+    --teal: #00786f;
 }
 
 body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
-    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(./assets/img/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    max-width: 1200px;
 }
 
 /* Hero */
@@ -193,8 +196,10 @@ body {
 footer {
     display: flex;
     flex-wrap: wrap;
-    background-color: var(--teal-three);
-    min-width: 100%;
+    justify-content: center;
+    background-color: var(--teal);
+    width: 100vw; 
+    max-width: 100%;
 }
 
 .footer-text-content {
