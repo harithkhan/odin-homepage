@@ -162,6 +162,7 @@ main {
 
 .project-img {
     object-fit: cover;
+    min-width: 100%;
 }
 
 .project-header-container {
